@@ -25,6 +25,7 @@ from PIL import Image
 print( "# imports ... (3)")
 
 import agents.conversational_agent as agents
+import agents.docpool as docpool
 
 load_dotenv('.env')
 
@@ -78,6 +79,9 @@ def main():
 
     if 'agent' not in st.session_state:
         st.session_state.agent = agents.create_agent()
+        # Initialize your document retriever with the corpus
+        st.session_state.doc_retriever = docpool.EmbeddingBasedRetriever(files_path='./temp/file_paths.joblib')
+
     # container for chat history
     chat_container = st.container()
 
