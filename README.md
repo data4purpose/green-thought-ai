@@ -19,7 +19,7 @@ valuable input to their research faster and ideally linked to accurate sources.
 ## Our Approach
 ### A Multi-Modal Chatbot Powered by LangChain Agents, OpenAI's Function Calling, and Streamlit
 
-This work is inspired by the [Medium blog](https://medium.com/cyberark-engineering/a-developer-guide-for-creating-a-multi-modal-chatbot-using-langchain-agents-9003ba0ffb4d) and this
+This work is inspired by Nir Bar's [Medium blog](https://medium.com/cyberark-engineering/a-developer-guide-for-creating-a-multi-modal-chatbot-using-langchain-agents-9003ba0ffb4d) and this
 [Github Repository](https://github.com/nirbar1985/country-compass-ai). Thanks, to _Nir Bar_ for breaking that ice for us.
 
 #### Overview
@@ -29,13 +29,16 @@ The multi-modal chatbot we are crafting is backed by an agent that uses "self ma
 - Google Search Tool: Useful for fetching information from the web
 
 In the first iteration we plan to switch to "DuckDuck Search" instead of the costly Google Search API tool.
-Next, we plan to add some better suited APIs for context retrieval, but in the befinning, we are already able to retrieve country
-specific information from the _Countries API_, this is realy good starting point.
+Next, we plan to add some better suited APIs for context retrieval, but in the beginning, we are already able to retrieve country
+specific information from the _Countries API_, this is realy a good starting point.
 
 ## Getting Started
 Clone the repository, set up the virtual environment, and install the required packages.
 
-1. git clone https://github.com/data4purpose/green-thought-ai.git
+1. ```shell script
+   git clone https://github.com/data4purpose/green-thought-ai.git
+   ```
+   
 
 1. ( In case you have python version 3.11.4 installed in pyenv)
    ```shell script
