@@ -3,6 +3,7 @@
 
 # ESG Report Assistant
 
+_What is an ESG Report Agent doing?_
 This AI agent helps consumers to find and navigate through ESG data.
 
 _But hey: What is it? What is an ESG Report Assistant?_
