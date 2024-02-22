@@ -9,12 +9,12 @@ This AI agent helps consumers to find and navigate through ESG data.
 _*But hey:* What is this project for? What is an ESG Report Assistant, from a technical point of view?_
 
 In this project we develop the prototype of an intelligent companion for consumers
-who are interested in ESG data. First, we look into a company focus. 
-As and second area of this work we selected supply chain data for specific products.
+who are interested in ESG data. First, we look into the ESG reports, published by multiple companies. 
+For the second part of this work we selected supply chain data for specific products.
 
 For this purpose, we envision a supportive research assistant, which helps users
-to find and understand reported ESG data. Researchers will be able to get 
-valuable input to their research faster and ideally with accurate sources.
+to find and understand already reported ESG data. Researchers will be able to get 
+valuable input to their research faster and ideally linked to accurate sources.
 
 ## Our Approach
 ### A Multi-Modal Chatbot Powered by LangChain Agents, OpenAI's Function Calling, and Streamlit
