@@ -1,15 +1,35 @@
-# Multi-Modal Chatbot Powered by LangChain Agents, OpenAI's Function Calling, and Streamlit
+# ESG Report Assistant
 
-## Solution
+This AI agent helps consumers to find and navigate through ESG data.
 
-The multi-modal chatbot I crafted is backed by an agent that uses three tools:
+_But hey: What is it? What is an ESG Report Assistant?_
+
+In this project we develop the prototype of an intelligent companion for consumers
+who are interested in ESG data. First, we look into a company focus. 
+As and second area of this work we selected supply chain data for specific products.
+
+For this purpose, we envision a supportive research assistant, which helps users
+to find and understand reported ESG data. Researchers will be able to get 
+valuable input to their research faster and ideally with accurate sources.
+
+## Our Approach
+### A Multi-Modal Chatbot Powered by LangChain Agents, OpenAI's Function Calling, and Streamlit
+
+This work is inspired by the [Medium blog](https://medium.com/cyberark-engineering/a-developer-guide-for-creating-a-multi-modal-chatbot-using-langchain-agents-9003ba0ffb4d) and this
+[Github Repository](https://github.com/nirbar1985/country-compass-ai). Thanks, to _Nir Bar_ for breaking that ice for us.
+
+#### Overview
+The multi-modal chatbot we are crafting is backed by an agent that uses "self made" tools:
 - REST Countries API Chain: enables retrieving information on countries, invoking [Rest countries API](https://restcountries.com/)
 - DALL·E 3 Image Generator: Generates an image of countries based on the country name
 - Google Search Tool: Useful for fetching information from the web
 
+In the first iteration we plan to switch to "DuckDuck Search" instead of the costly Google Search API tool.
+Next, we plan to add some better suited APIs for context retrieval, but in the befinning, we are already able to retrieve country
+specific information from the _Countries API_, this is realy good starting point.
 
 ## Getting Started
-Clone the repository, set up the virtual environment, and install the required packages
+Clone the repository, set up the virtual environment, and install the required packages.
 
 1. git clone git@github.com:nirbar1985/country-compass-ai.git
 
@@ -17,7 +37,6 @@ Clone the repository, set up the virtual environment, and install the required p
    ```shell script
    pyenv local 3.11.4
    ```
-
 
 1. Install dependencies
     ```shell script
