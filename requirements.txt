@@ -7,3 +7,4 @@ google-search-results
 langchain-openai==0.0.5
 python-dotenv>=1.0.1,<2.0.0
 ipykernel>=6.29.0,<7.0.0  # This is a development dependency
+watchdog

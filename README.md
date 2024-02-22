@@ -31,11 +31,12 @@ specific information from the _Countries API_, this is realy good starting point
 ## Getting Started
 Clone the repository, set up the virtual environment, and install the required packages.
 
-1. git clone git@github.com:nirbar1985/country-compass-ai.git
+1. git clone https://github.com/data4purpose/green-thought-ai.git
 
 1. ( In case you have python version 3.11.4 installed in pyenv)
    ```shell script
-   pyenv local 3.11.4
+   cd green-thought-ai
+   pip3 install -r requirements.txt
    ```
 
 1. Install dependencies
