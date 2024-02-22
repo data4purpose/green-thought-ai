@@ -1,3 +1,6 @@
+
+![img.png](img.png)
+
 # ESG Report Assistant
 
 This AI agent helps consumers to find and navigate through ESG data.
